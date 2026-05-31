@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Icon Editor — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">📐</span>
+                <div class="title-col">
+                    <h1>SVG Icon Editor</h1>
+                    <p class="tagline">Icon designer generating clean inline SVG codes.</p>
+                </div>
+            </div>
+            <div class="badge">media</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <textarea id="svg-inp-icon" style="width:100%; height:120px;"><circle cx="100" cy="100" r="80" fill="violet" /></textarea>
+            <svg width="100" height="100" viewBox="0 0 200 200" id="svg-view" style="display:block; margin: 12px auto; background:#0c0c14; border-radius:8px;"></svg>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
