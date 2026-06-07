@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Icon designer generating clean inline SVG codes.
+  name: svg-icon-editor version: 1.0 type: Repository author: VarshuAi description: >   Icon designer generating clean inline SVG codes. primary_tech: CSS
 primary_tech: CSS
 ```
 
